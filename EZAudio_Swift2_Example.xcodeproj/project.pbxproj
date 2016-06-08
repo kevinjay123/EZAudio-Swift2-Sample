@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34EBDC831D06604E00CA0AF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EBDC821D06604E00CA0AF3 /* AppDelegate.swift */; };
+		34EBDC881D06604E00CA0AF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EBDC861D06604E00CA0AF3 /* Main.storyboard */; };
+		34EBDC8A1D06604F00CA0AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34EBDC891D06604E00CA0AF3 /* Assets.xcassets */; };
+		34EBDC8D1D06604F00CA0AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EBDC8B1D06604F00CA0AF3 /* LaunchScreen.storyboard */; };
+		34EBDC951D06627500CA0AF3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EBDC941D06627500CA0AF3 /* MainViewController.swift */; };
+		34EBDC971D06638000CA0AF3 /* AppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EBDC961D06638000CA0AF3 /* AppCell.swift */; };
+		34EBDC991D06643F00CA0AF3 /* GridMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EBDC981D06643F00CA0AF3 /* GridMenuItem.swift */; };
+		34EBDC9C1D066AC400CA0AF3 /* SegueIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EBDC9B1D066AC400CA0AF3 /* SegueIdentifier.swift */; };
+		34EBDC9F1D066B8700CA0AF3 /* FFTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EBDC9E1D066B8700CA0AF3 /* FFTViewController.swift */; };
+		34EBDCA51D067CBA00CA0AF3 /* WaveformViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EBDCA41D067CBA00CA0AF3 /* WaveformViewControler.swift */; };
+		34EBDCA71D067DD300CA0AF3 /* simple-drum-beat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 34EBDCA61D067DD300CA0AF3 /* simple-drum-beat.wav */; };
+		34EBDCAC1D068FE500CA0AF3 /* PassThroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EBDCAB1D068FE500CA0AF3 /* PassThroughViewController.swift */; };
+		34EBDCB01D069C3600CA0AF3 /* CoreGraphicsWaveformViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EBDCAF1D069C3600CA0AF3 /* CoreGraphicsWaveformViewController.swift */; };
+		34EBDCD11D07BACF00CA0AF3 /* OpenGLWaveformViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EBDCD01D07BACF00CA0AF3 /* OpenGLWaveformViewController.swift */; };
+		34EBDCD31D07C28500CA0AF3 /* RecordFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EBDCD21D07C28500CA0AF3 /* RecordFileViewController.swift */; };
+		34EBDCD61D07C2D700CA0AF3 /* PlayFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EBDCD51D07C2D700CA0AF3 /* PlayFileViewController.swift */; };
+		9F3BBFE294CFC19014B8525D /* libPods-EZAudio_Swift2_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC1510331BBFAE769D32F7D /* libPods-EZAudio_Swift2_Example.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34EBDC7F1D06604E00CA0AF3 /* EZAudio_Swift2_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZAudio_Swift2_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34EBDC821D06604E00CA0AF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34EBDC871D06604E00CA0AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34EBDC891D06604E00CA0AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34EBDC8C1D06604F00CA0AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34EBDC8E1D06604F00CA0AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34EBDC941D06627500CA0AF3 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		34EBDC961D06638000CA0AF3 /* AppCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCell.swift; sourceTree = "<group>"; };
+		34EBDC981D06643F00CA0AF3 /* GridMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridMenuItem.swift; sourceTree = "<group>"; };
+		34EBDC9B1D066AC400CA0AF3 /* SegueIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SegueIdentifier.swift; path = System/SegueIdentifier.swift; sourceTree = "<group>"; };
+		34EBDC9E1D066B8700CA0AF3 /* FFTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FFTViewController.swift; path = FFT/FFTViewController.swift; sourceTree = "<group>"; };
+		34EBDCA41D067CBA00CA0AF3 /* WaveformViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WaveformViewControler.swift; path = WaveformFromFile/WaveformViewControler.swift; sourceTree = "<group>"; };
+		34EBDCA61D067DD300CA0AF3 /* simple-drum-beat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "simple-drum-beat.wav"; sourceTree = "<group>"; };
+		34EBDCAB1D068FE500CA0AF3 /* PassThroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PassThroughViewController.swift; path = PassThrough/PassThroughViewController.swift; sourceTree = "<group>"; };
+		34EBDCAF1D069C3600CA0AF3 /* CoreGraphicsWaveformViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreGraphicsWaveformViewController.swift; path = CoreGraphicsWaveform/CoreGraphicsWaveformViewController.swift; sourceTree = "<group>"; };
+		34EBDCD01D07BACF00CA0AF3 /* OpenGLWaveformViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenGLWaveformViewController.swift; path = OpenGLWaveform/OpenGLWaveformViewController.swift; sourceTree = "<group>"; };
+		34EBDCD21D07C28500CA0AF3 /* RecordFileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecordFileViewController.swift; path = RecordFile/RecordFileViewController.swift; sourceTree = "<group>"; };
+		34EBDCD51D07C2D700CA0AF3 /* PlayFileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayFileViewController.swift; path = PlayFile/PlayFileViewController.swift; sourceTree = "<group>"; };
+		3C4615AA439C2427A9BCC7B7 /* Pods-EZAudio_Swift2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZAudio_Swift2_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EZAudio_Swift2_Example/Pods-EZAudio_Swift2_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9C84CFF04B5242F9DA893D8E /* Pods-EZAudio_Swift2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZAudio_Swift2_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EZAudio_Swift2_Example/Pods-EZAudio_Swift2_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EEC1510331BBFAE769D32F7D /* libPods-EZAudio_Swift2_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EZAudio_Swift2_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34EBDC7C1D06604E00CA0AF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3BBFE294CFC19014B8525D /* libPods-EZAudio_Swift2_Example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189ED2E6BC4150B6445C52D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEC1510331BBFAE769D32F7D /* libPods-EZAudio_Swift2_Example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34EBDC761D06604E00CA0AF3 = {
+			isa = PBXGroup;
+			children = (
+				34EBDC811D06604E00CA0AF3 /* EZAudio_Swift2_Example */,
+				34EBDC801D06604E00CA0AF3 /* Products */,
+				6718BE9509CCBF15147AF5FA /* Pods */,
+				189ED2E6BC4150B6445C52D3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34EBDC801D06604E00CA0AF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34EBDC7F1D06604E00CA0AF3 /* EZAudio_Swift2_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34EBDC811D06604E00CA0AF3 /* EZAudio_Swift2_Example */ = {
+			isa = PBXGroup;
+			children = (
+				34EBDCAE1D069C1E00CA0AF3 /* CoreGraphicsWaveform */,
+				34EBDCCF1D07BAB300CA0AF3 /* OpenGLWaveform */,
+				34EBDCA01D067C3B00CA0AF3 /* PlayFile */,
+				34EBDCD41D07C28C00CA0AF3 /* RecordFile */,
+				34EBDCA31D067CAF00CA0AF3 /* WaveformFromFile */,
+				34EBDC9D1D066B4C00CA0AF3 /* FFT */,
+				34EBDCAD1D068FE900CA0AF3 /* PassThrough */,
+				34EBDC9A1D066A8D00CA0AF3 /* System */,
+				34EBDCAA1D068F2200CA0AF3 /* Main */,
+				34EBDC821D06604E00CA0AF3 /* AppDelegate.swift */,
+				34EBDC861D06604E00CA0AF3 /* Main.storyboard */,
+				34EBDC891D06604E00CA0AF3 /* Assets.xcassets */,
+				34EBDC8B1D06604F00CA0AF3 /* LaunchScreen.storyboard */,
+				34EBDC8E1D06604F00CA0AF3 /* Info.plist */,
+			);
+			path = EZAudio_Swift2_Example;
+			sourceTree = "<group>";
+		};
+		34EBDC9A1D066A8D00CA0AF3 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				34EBDCA61D067DD300CA0AF3 /* simple-drum-beat.wav */,
+				34EBDC9B1D066AC400CA0AF3 /* SegueIdentifier.swift */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		34EBDC9D1D066B4C00CA0AF3 /* FFT */ = {
+			isa = PBXGroup;
+			children = (
+				34EBDC9E1D066B8700CA0AF3 /* FFTViewController.swift */,
+			);
+			name = FFT;
+			sourceTree = "<group>";
+		};
+		34EBDCA01D067C3B00CA0AF3 /* PlayFile */ = {
+			isa = PBXGroup;
+			children = (
+				34EBDCD51D07C2D700CA0AF3 /* PlayFileViewController.swift */,
+			);
+			name = PlayFile;
+			sourceTree = "<group>";
+		};
+		34EBDCA31D067CAF00CA0AF3 /* WaveformFromFile */ = {
+			isa = PBXGroup;
+			children = (
+				34EBDCA41D067CBA00CA0AF3 /* WaveformViewControler.swift */,
+			);
+			name = WaveformFromFile;
+			sourceTree = "<group>";
+		};
+		34EBDCAA1D068F2200CA0AF3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				34EBDC941D06627500CA0AF3 /* MainViewController.swift */,
+				34EBDC981D06643F00CA0AF3 /* GridMenuItem.swift */,
+				34EBDC961D06638000CA0AF3 /* AppCell.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		34EBDCAD1D068FE900CA0AF3 /* PassThrough */ = {
+			isa = PBXGroup;
+			children = (
+				34EBDCAB1D068FE500CA0AF3 /* PassThroughViewController.swift */,
+			);
+			name = PassThrough;
+			sourceTree = "<group>";
+		};
+		34EBDCAE1D069C1E00CA0AF3 /* CoreGraphicsWaveform */ = {
+			isa = PBXGroup;
+			children = (
+				34EBDCAF1D069C3600CA0AF3 /* CoreGraphicsWaveformViewController.swift */,
+			);
+			name = CoreGraphicsWaveform;
+			sourceTree = "<group>";
+		};
+		34EBDCCF1D07BAB300CA0AF3 /* OpenGLWaveform */ = {
+			isa = PBXGroup;
+			children = (
+				34EBDCD01D07BACF00CA0AF3 /* OpenGLWaveformViewController.swift */,
+			);
+			name = OpenGLWaveform;
+			sourceTree = "<group>";
+		};
+		34EBDCD41D07C28C00CA0AF3 /* RecordFile */ = {
+			isa = PBXGroup;
+			children = (
+				34EBDCD21D07C28500CA0AF3 /* RecordFileViewController.swift */,
+			);
+			name = RecordFile;
+			sourceTree = "<group>";
+		};
+		6718BE9509CCBF15147AF5FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C84CFF04B5242F9DA893D8E /* Pods-EZAudio_Swift2_Example.debug.xcconfig */,
+				3C4615AA439C2427A9BCC7B7 /* Pods-EZAudio_Swift2_Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34EBDC7E1D06604E00CA0AF3 /* EZAudio_Swift2_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34EBDC911D06604F00CA0AF3 /* Build configuration list for PBXNativeTarget "EZAudio_Swift2_Example" */;
+			buildPhases = (
+				D95C6803600E534631DFE827 /* Check Pods Manifest.lock */,
+				34EBDC7B1D06604E00CA0AF3 /* Sources */,
+				34EBDC7C1D06604E00CA0AF3 /* Frameworks */,
+				34EBDC7D1D06604E00CA0AF3 /* Resources */,
+				12320301B9AAD77B1D3BFF16 /* Embed Pods Frameworks */,
+				0990592F2E9388F74443124F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZAudio_Swift2_Example;
+			productName = EZAudio_Swift2_Example;
+			productReference = 34EBDC7F1D06604E00CA0AF3 /* EZAudio_Swift2_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34EBDC771D06604E00CA0AF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kevinjay Chan";
+				TargetAttributes = {
+					34EBDC7E1D06604E00CA0AF3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 34EBDC7A1D06604E00CA0AF3 /* Build configuration list for PBXProject "EZAudio_Swift2_Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34EBDC761D06604E00CA0AF3;
+			productRefGroup = 34EBDC801D06604E00CA0AF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34EBDC7E1D06604E00CA0AF3 /* EZAudio_Swift2_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34EBDC7D1D06604E00CA0AF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EBDCA71D067DD300CA0AF3 /* simple-drum-beat.wav in Resources */,
+				34EBDC8D1D06604F00CA0AF3 /* LaunchScreen.storyboard in Resources */,
+				34EBDC8A1D06604F00CA0AF3 /* Assets.xcassets in Resources */,
+				34EBDC881D06604E00CA0AF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0990592F2E9388F74443124F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EZAudio_Swift2_Example/Pods-EZAudio_Swift2_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12320301B9AAD77B1D3BFF16 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EZAudio_Swift2_Example/Pods-EZAudio_Swift2_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D95C6803600E534631DFE827 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34EBDC7B1D06604E00CA0AF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EBDCA51D067CBA00CA0AF3 /* WaveformViewControler.swift in Sources */,
+				34EBDCAC1D068FE500CA0AF3 /* PassThroughViewController.swift in Sources */,
+				34EBDC971D06638000CA0AF3 /* AppCell.swift in Sources */,
+				34EBDC831D06604E00CA0AF3 /* AppDelegate.swift in Sources */,
+				34EBDCD61D07C2D700CA0AF3 /* PlayFileViewController.swift in Sources */,
+				34EBDC9C1D066AC400CA0AF3 /* SegueIdentifier.swift in Sources */,
+				34EBDC9F1D066B8700CA0AF3 /* FFTViewController.swift in Sources */,
+				34EBDC951D06627500CA0AF3 /* MainViewController.swift in Sources */,
+				34EBDCD31D07C28500CA0AF3 /* RecordFileViewController.swift in Sources */,
+				34EBDCB01D069C3600CA0AF3 /* CoreGraphicsWaveformViewController.swift in Sources */,
+				34EBDC991D06643F00CA0AF3 /* GridMenuItem.swift in Sources */,
+				34EBDCD11D07BACF00CA0AF3 /* OpenGLWaveformViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34EBDC861D06604E00CA0AF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34EBDC871D06604E00CA0AF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34EBDC8B1D06604F00CA0AF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34EBDC8C1D06604F00CA0AF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34EBDC8F1D06604F00CA0AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34EBDC901D06604F00CA0AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34EBDC921D06604F00CA0AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C84CFF04B5242F9DA893D8E /* Pods-EZAudio_Swift2_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EZAudio_Swift2_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kevinjay.EZAudio-Swift2-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EZAudio_Swift2_Example/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		34EBDC931D06604F00CA0AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C4615AA439C2427A9BCC7B7 /* Pods-EZAudio_Swift2_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EZAudio_Swift2_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kevinjay.EZAudio-Swift2-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EZAudio_Swift2_Example/Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34EBDC7A1D06604E00CA0AF3 /* Build configuration list for PBXProject "EZAudio_Swift2_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EBDC8F1D06604F00CA0AF3 /* Debug */,
+				34EBDC901D06604F00CA0AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34EBDC911D06604F00CA0AF3 /* Build configuration list for PBXNativeTarget "EZAudio_Swift2_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EBDC921D06604F00CA0AF3 /* Debug */,
+				34EBDC931D06604F00CA0AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34EBDC771D06604E00CA0AF3 /* Project object */;
+}
