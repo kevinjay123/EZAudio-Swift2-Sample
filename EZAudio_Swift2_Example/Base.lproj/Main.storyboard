@@ -165,7 +165,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1RW-Tx-oUO" customClass="EZAudioPlot">
-                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
@@ -174,7 +174,7 @@
                             <constraint firstItem="1RW-Tx-oUO" firstAttribute="leading" secondItem="F4X-bq-2RN" secondAttribute="leading" id="HeQ-ur-zW5"/>
                             <constraint firstItem="AHu-Wh-HbI" firstAttribute="top" secondItem="1RW-Tx-oUO" secondAttribute="bottom" id="asJ-mP-h38"/>
                             <constraint firstAttribute="trailing" secondItem="1RW-Tx-oUO" secondAttribute="trailing" id="mUu-Dk-e92"/>
-                            <constraint firstItem="1RW-Tx-oUO" firstAttribute="top" secondItem="svN-wu-BQp" secondAttribute="bottom" id="wuI-y0-ahF"/>
+                            <constraint firstItem="1RW-Tx-oUO" firstAttribute="top" secondItem="svN-wu-BQp" secondAttribute="bottom" constant="-64" id="wuI-y0-ahF"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Waveform From File" id="d7R-nu-caF"/>
@@ -199,10 +199,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HeU-os-Dec" customClass="EZAudioPlotGL">
-                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9HQ-I8-Y1J">
-                                        <rect key="frame" x="8" y="8" width="42" height="21"/>
+                                        <rect key="frame" x="8" y="72" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -210,7 +210,7 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="9HQ-I8-Y1J" firstAttribute="top" secondItem="HeU-os-Dec" secondAttribute="top" constant="8" id="f5D-b1-t6X"/>
+                                    <constraint firstItem="9HQ-I8-Y1J" firstAttribute="top" secondItem="HeU-os-Dec" secondAttribute="top" constant="72" id="f5D-b1-t6X"/>
                                     <constraint firstItem="9HQ-I8-Y1J" firstAttribute="leading" secondItem="HeU-os-Dec" secondAttribute="leading" constant="8" id="iqz-bH-cr7"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -225,7 +225,7 @@
                             <constraint firstAttribute="trailing" secondItem="HeU-os-Dec" secondAttribute="trailing" id="0Wo-Nq-RPf"/>
                             <constraint firstItem="pa2-DN-A76" firstAttribute="top" secondItem="HeU-os-Dec" secondAttribute="bottom" id="Ihk-ba-R5s"/>
                             <constraint firstItem="HeU-os-Dec" firstAttribute="leading" secondItem="5Ho-sY-bHm" secondAttribute="leading" id="bz0-Ej-2rB"/>
-                            <constraint firstItem="HeU-os-Dec" firstAttribute="top" secondItem="5Lm-DM-baf" secondAttribute="bottom" id="lbr-1b-va7"/>
+                            <constraint firstItem="HeU-os-Dec" firstAttribute="top" secondItem="5Lm-DM-baf" secondAttribute="bottom" constant="-64" id="lbr-1b-va7"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="PassThrough" id="NIc-fi-7cU"/>

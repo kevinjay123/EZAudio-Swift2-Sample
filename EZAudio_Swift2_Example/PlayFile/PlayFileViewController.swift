@@ -236,6 +236,4 @@ extension PlayFileViewController: EZAudioPlayerDelegate {
             }
         }
     }
-
-
 }

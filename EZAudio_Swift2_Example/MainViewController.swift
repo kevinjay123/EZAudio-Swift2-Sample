@@ -37,11 +37,6 @@ class MainViewController: UICollectionViewController {
         navigationController?.navigationBar.translucent = true
     }
 
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-
-        return .LightContent
-    }
-
     override func traitCollectionDidChange(previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)
         guard let layout = collectionView?.collectionViewLayout as? UICollectionViewFlowLayout else {
@@ -116,7 +111,6 @@ class MainViewController: UICollectionViewController {
             break
         }
     }
-
 }
 
 extension MainViewController: SegueIdentifierHandler {
